@@ -67,8 +67,7 @@ SELECT DISTINCT nombrecurso FROM cursos CROSS JOIN inscripciones;
 --{t | t ∈ estudiantes × inscripciones ∧ t[estudiantes.estudianteID] = t[inscripciones.estudianteID]}
 --Estudiantes ⋈ Inscripciones
 
-SELECT * FROM estudiantes NATURAL JOIN inscripciones ON estudiantes.estudianteID = inscripciones.estudianteID
-
+SELECT *FROM Estudiantes NATURAL JOIN Inscripciones;
 --Punto4
 --{t[cursoid] | t ∈ cursos ∧ t[nombrecurso] = 'Cálculo I' ∧ t[profesor] = 'Siervo Joya'}
 --π cursoID (σ nombreCur='Cálculo I' ∧ profesor='Siervo Joya' (cursos))
