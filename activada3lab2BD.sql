@@ -1,5 +1,5 @@
 -- Laboratorio N° 2 de Base de Datos
--- Actividad N°2
+-- Actividad N°3
 
 --DDL CREACION DE LAS RELACIONES
 
